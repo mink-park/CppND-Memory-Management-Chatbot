@@ -11,7 +11,8 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
 
-    delete _chatBot; 
+    //This "delete" code call Chatbot destructor double time. Error!
+    //delete _chatBot; 
 
     ////
     //// EOF STUDENT CODE
