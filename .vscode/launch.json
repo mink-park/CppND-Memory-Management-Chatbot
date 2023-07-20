@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "C++ Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/membot.exe", // ChatBot 실행 파일 경로로 수정
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/build",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "gdb",
+        "miDebuggerPath": "gdb" // gdb 실행 파일 경로로 수정
+      }
+    ]
+  }
