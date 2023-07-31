@@ -219,7 +219,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
     // create instance of chatbot
     ChatBot chatbot = ChatBot("../images/chatbot.png");
     //_chatbot for GUI communication
-    SetChatbotHandle(&chatbot);
+    //SetChatbotHandle(&chatbot);
 
      // add pointer to chatlogic so that chatbot answers can be passed on to the GUI
     chatbot.SetChatLogicHandle(this);
